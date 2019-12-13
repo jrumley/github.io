@@ -341,12 +341,8 @@ h2 {
 /* box styles  */
 
 #hero {
-    display: -webkit-flex;
-    justify-content: center;
-    flex-wrap: wrap;
     margin-top: 60px;
     margin-bottom: 60px;
-    height: 100%;
     text-align: center;
 }
 

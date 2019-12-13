@@ -14,7 +14,6 @@
 }
 
 body {
-    display: -webkit-flex;
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
@@ -365,13 +364,12 @@ h2 {
     display: -webkit-flex;
     align-items: center;
     justify-content: center;
-    /* height: 100%; */
 }
 
 .box p {
     line-height: 1.25em;
     margin: 0px;
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 .box h2 {
@@ -421,7 +419,7 @@ h2 {
     margin-left: 10px;
 }
 
-#robot p {
+#robot-text {
     padding: 10px;
     /* font-size:1.25em; */
     /* background: var(--clr-secondary); */

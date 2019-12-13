@@ -292,7 +292,7 @@ h2 {
 
 #header-image img {
     height: 90vh;
-    width: 100vw;
+    width: 100%;
 }
 
 #mission {
@@ -311,7 +311,6 @@ h2 {
 #producing {
     color: var(--clr-highlight);
 }
-
 
 
 @media only screen and (max-width: 768px){

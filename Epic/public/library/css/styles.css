@@ -458,6 +458,10 @@ h2 {
     .quote-div {
         padding: 10px;
     }
+    #robot h2 {
+        font-size: 1em;
+        letter-spacing: .5em;
+    }
 }
 
 #robot h3 {

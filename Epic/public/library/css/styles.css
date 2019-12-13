@@ -454,6 +454,7 @@ h2 {
     }
     #quotes{
         flex-wrap: wrap;
+        width: 100%;
     }
     .quote-div {
         padding: 10px;
@@ -461,6 +462,9 @@ h2 {
     #robot h2 {
         font-size: 1em;
         letter-spacing: .5em;
+    }
+    #robot p {
+        width: 100%;
     }
 }
 
@@ -513,6 +517,16 @@ h2 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) { 
+    #contact h2 {
+        font-size: 1em;
+        letter-spacing: .5em;
+    }
+    form input, textarea {
+        width:75%;
+    }
 }
 
 .submission-form {

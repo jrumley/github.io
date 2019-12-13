@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Epic Electric</title>
+    <link rel="stylesheet" href="public/library/css/styles.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+    <main id="main-container">
+        <nav id="nav-bar">
+            <div id="title">
+                <h1>Epic <i class="fas fa-bolt animated infinite shake"></i> Electric</h1>
+                <p></p>
+            </div> 
+            <ul>
+                <li><a href="#mission">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>  
+
+        <div class="header">
+            <div id="header-image">
+                <img src="public/images/factory.jpg" alt="factory-pic" class="animated fadeInUp">
+            </div>
+
+            <div id="mission" class="animated flipInY">
+                <h2>Mission Statement</h2>
+                <p>At EPIC our motto is <em><span id="producing">"If you are not producing, we are not doing our job."</span></em> Our main concern is YOUR production. We are available 24-7 for your control system needs. Many of our customers have plant floor connectivity to our office for instant troubleshooting diagnosis.</p>
+            </div>
+        </div>
+
+        <section id="hero">
+            <div class="box">
+                <h2>Machine Integration</h2>
+                <img src="public/images/1.jpeg" alt="Electric-Panel-1">
+                <div class="box-text">
+                        <p>We will design, build, and commission your complete control system. We are a UL panel shop therefore we can provide a complete package to all of our customers. We can meet all of your machine design needs with vast our experience in machine control and safety design. </p>
+                </div>
+            </div>
+            <div class="box">
+                <h2>Process Integration</h2>
+                <img src="public/images/2.jpg" alt="Electric-Panel-2">
+                <div class="box-text">
+                        <p>EPIC can help you design, install, and implement your plant floor control system whether its using a single platform or using multiple platforms. We specialize in communication, data collection, and machine efficiencies which will undoubtedly make your ROI well worth it.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>Tactical controls</h2>
+                <img src="public/images/apache.jpg" alt="apache-helicopter">
+                <div class="box-text">
+                        <p>If you are in need of R and D on your precision devices, EPIC can help you set up and stress test your device. We have experience in military grade applications and testing. <a href="#contact">Call or email us with your specific needs.</a></p>
+                </div>
+            </div> 
+        </section>     
+        
+        <section id="robot">
+            <h2>Robotic Casepacker</h2>
+            <div id="pic-and-vid"> 
+                <img src="public/images/jollytime-robot.jpg" alt="jollytime-robot">
+                <div id="video">
+                    <iframe width="500" height="315" src="https://www.youtube.com/embed/_Di5Ukbp2DA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+           
+            <div>
+                <p>The Robotic Casepacker Cell that is shown above is a custom application for a major food producer. The cell can be constructed out of painted steel, aluminum, and stainless steel. The base design is created to be adjustable to many different products and box sizes. It is capable of 65 picks per minute with a single scara robot or 130 picks per minute with a 2 robot model. Please view the video to the right and see this setup in action. Currently this cell design is running over 99% efficient.</p>
+            </div>
+            <div id="testimonials">
+                <h3>Testimonials</h3>
+                <div id="quotes">
+                               
+                    <div class="quote-div">
+                        <span>
+                            <q>
+                                The value of this collaboration with Heppner Engineering, EPIC and American Pop Corn continues to pay dividends on many levels. With Staubli robotic's precision, range of motion and affordability combined with the education and ongoing support our ROI is incredible!
+                            </q>
+                            <div class="quote-author">
+                                <cite>Dale Hartshorn</cite>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="quote-div">
+                        <span>
+                            <q>
+                                Our experience with Staubli has propelled us to a new level of automation. In searching for an opportunity to integrate robotics into our case packing automation scheme, Staubli Robotics provided a top tier solution. American Pop Corn Company and Staubli have both been around for over a century and the emphasis on quality, value and loyalty make for an ideal alliance. The initial groundwork, the staged training and implementation and the final installation could not have gone more smoothly. Our stated goal was to drive efficiency, remove a significant source of manual repetitive motion and capture a decent ROI. We accomplished all of the above and are already looking for more solutions from your group.
+                            </q>
+                            <div class="quote-author">
+                                <cite>Greg Hoffman</cite>
+                            </div>
+                        </span>
+                    </div> 
+                    <div class="quote-div">
+                        <span>
+                            <q>
+                                The Robot has been extremely reliable since installation. Staubli has built a machine that will deliver accuracy beyond what is required for our packaging. The Cell is robust and attractive. Very solidly built, ready to be the center of attention.
+                            </q>
+                            <div class="quote-author">
+                                <cite>Shane Rassel</cite>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Epic Today</h2>
+            <div class="form">
+                <form class="submission-form" method="POST" action="send">
+					{{msg}}
+                    <label for="name" id="name">
+                        <p>Name:</p> 
+                    </label>
+                    <input type="text" 
+                    placeholder="Full Name" 
+                    id="name" 
+                    name="name"
+                    required>
+                    <label for="email">
+                        <p>Email:</p>
+                    </label>
+                    <input type="text" placeholder="Email" id="email" name="email" required>
+                    <label for="phone">
+                        <p>Phone:</p>  
+                    </label>
+                    <input type="text" placeholder="Phone Number" id="phone" name="phone" required>
+                    <label for="subject">
+                        <p>Subject:</p>
+                    </label>
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                    <label for="message">
+                        <p>Message:</p>
+                    </label>
+                        <textarea placeholder="Message" name="message" required></textarea>
+                    <button type="submit" value="Send" id="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">Electrical Process and Industrial Controls LLC, (EPIC)  |  763-691-9050  |  <a href="mailto:Sales@EpicElectric.net">Sales@EpicElectric.net</a> </footer>
+    <script src="public/js/script.js"></script>
+</body>
+</html>

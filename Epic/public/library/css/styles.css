@@ -14,8 +14,8 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     padding: 0px;
     font-size: 1em;
@@ -292,9 +292,11 @@ h2 {
 #header-image img {
     height: 90vh;
     width: 100%;
+    z-index: 1;
 }
 
 #mission {
+    z-index:2;
     position: absolute;
     text-align: center;
     background:  var(--clr-secondary);

@@ -340,6 +340,8 @@ h2 {
 /* box styles  */
 
 #hero {
+    display: -webkit-flex;
+    flex-wrap: wrap;
     margin-top: 60px;
     margin-bottom: 60px;
     text-align: center;

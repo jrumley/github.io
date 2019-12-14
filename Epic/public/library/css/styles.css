@@ -170,11 +170,13 @@ h2 {
     80% {
       -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
       transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+      opacity: 1;
     }
   
     to {
       -webkit-transform: perspective(400px);
       transform: perspective(400px);
+      opacity: 1;
     }
   }
   
@@ -203,11 +205,13 @@ h2 {
     80% {
       -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
       transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+      opacity: 1;
     }
   
     to {
       -webkit-transform: perspective(400px);
       transform: perspective(400px);
+      opacity: 1;
     }
   }
   
@@ -292,7 +296,7 @@ h2 {
 #header-image img {
     height: 90vh;
     width: 100%;
-    z-index: 1;
+    z-index: -1;
 }
 
 #mission {
@@ -443,7 +447,7 @@ h2 {
         margin: 0;
     }
     #robot img {
-        max-width: 100%;
+        max-width: 80%;
     }
     #pic-and-vid {
         padding: 0;

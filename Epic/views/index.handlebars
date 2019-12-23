@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Epic Electric</title>
     <link rel="stylesheet" href="public/library/css/styles.css">
-    <link rel="stylesheet" href="public/library/css/normalize.css">
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet" crossorigin="anonymous">
 </head>
@@ -28,8 +27,7 @@
                 <img src="public/images/factory.jpg" alt="factory-pic" class="animated fadeInUp">
             </div>
 
-            <div id="mission" class=" ">
-                <!-- JS will add in classes "animated flipInY" if chrome browser-->
+            <div id="mission" class="animated flipInY">
                 <h2>Mission Statement</h2>
                 <p>At EPIC our motto is <em><span id="producing">"If you are not producing, we are not doing our job."</span></em> Our main concern is YOUR production. We are available 24-7 for your control system needs. Many of our customers have plant floor connectivity to our office for instant troubleshooting diagnosis.</p>
             </div>
@@ -69,7 +67,7 @@
                 </div>
             </div>
            
-            <div id="robot-text">
+            <div>
                 <p>The Robotic Casepacker Cell that is shown above is a custom application for a major food producer. The cell can be constructed out of painted steel, aluminum, and stainless steel. The base design is created to be adjustable to many different products and box sizes. It is capable of 65 picks per minute with a single scara robot or 130 picks per minute with a 2 robot model. Please view the video to the right and see this setup in action. Currently this cell design is running over 99% efficient.</p>
             </div>
             <div id="testimonials">
@@ -114,7 +112,7 @@
             <h2>Contact Epic Today</h2>
             <div class="form">
                 <form class="submission-form" method="POST" action="send">
-					
+					{{msg}}
                     <label for="name" id="name">
                         <p>Name:</p> 
                     </label>
@@ -145,6 +143,6 @@
         </section>
     </main>
     <footer id="footer">Electrical Process and Industrial Controls LLC, (EPIC)  |  763-691-9050  |  <a href="mailto:Sales@EpicElectric.net">Sales@EpicElectric.net</a> </footer>
-    <script src="public/library/js/script.js"></script>
+    <script src="public/js/script.js"></script>
 </body>
 </html>

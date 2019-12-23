@@ -55,7 +55,10 @@ h2 {
 /* nav and title styles */
 
 #nav-bar {
-    display: -webkit-flex;
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;  
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -273,7 +276,10 @@ h2 {
 
 #nav-bar ul {
     list-style: none;
-    display: -webkit-flex;
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;  
     justify-content: center;
     padding-left: 0;
     width: 100%;
@@ -289,8 +295,11 @@ h2 {
 /* header and mission styles */
 
 .header {
-  position: relative; 
-  display: -webkit-flex;
+    position: relative; 
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;  
 }
 
 #header-image img {
@@ -307,6 +316,7 @@ h2 {
     padding-left: 5px;
     padding-right: 5px;
     box-shadow: 3px 3px 3px var(--clr-primary), 5px 5px 5px var(--clr-compliment);
+    display:none;
 }
 
 #mission p {
@@ -346,15 +356,22 @@ h2 {
 /* box styles  */
 
 #hero {
-    display: -webkit-flex;
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     margin-top: 60px;
     margin-bottom: 60px;
     text-align: center;
 }
 
 .box {
-    display: -webkit-flex;
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     flex-direction: column;
     align-content: center;
     max-width: 30%;
@@ -369,7 +386,10 @@ h2 {
 }
 
 .box .box-text {
-    display: -webkit-flex;
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     align-items: center;
     justify-content: center;
 }
@@ -400,7 +420,10 @@ h2 {
 
 #robot {
     min-width: 300px;
-    display: -webkit-flex;
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;  
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -420,8 +443,12 @@ h2 {
 }
 
 #pic-and-vid {
-    display: -webkit-flex;
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;  
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-left: 10px;
@@ -455,6 +482,7 @@ h2 {
     }
     #quotes{
         flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
         width: 100%;
     }
     .quote-div {
@@ -480,7 +508,10 @@ h2 {
 }
 
 #quotes {
-    display: -webkit-flex;
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;  
     flex-direction: row;
     align-items: center;
     padding-top: 0;

@@ -563,9 +563,6 @@ h2 {
         font-size: 1em;
         letter-spacing: .5em;
     }
-    form input, textarea {
-        width:75%;
-    }
 }
 
 form {
@@ -586,7 +583,7 @@ form input, textarea {
     width:100%;
     border: 0;
     border-radius: 5px;
-    margin-bottom: 3px;
+    margin: 0 auto;
     font-size: 1em;
     line-height: 1.5em;
 }

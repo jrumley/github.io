@@ -580,6 +580,7 @@ label p {
 }
 
 form input, textarea {
+    box-sizing:border-box;
     width:100%;
     border: 0;
     border-radius: 5px;

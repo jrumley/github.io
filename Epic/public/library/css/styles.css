@@ -313,14 +313,21 @@ h2 {
     position: absolute;
     text-align: center;
     background:  var(--clr-secondary);
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0;
     box-shadow: 3px 3px 3px var(--clr-primary), 5px 5px 5px var(--clr-compliment);
     display:none;
 }
 
+#mission h2 {
+    background: var(--clr-compliment);
+    margin: 0 0;
+    padding: 10px;
+}
+
 #mission p {
-    line-height: 1.25em;
+    line-height: 1.5em;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #producing {
@@ -331,12 +338,13 @@ h2 {
 @media only screen and (max-width: 768px){
     #mission {
         max-width:80%;
-        top: 40%;
+        top: 30%;
         left: 10%;
     }
 
     #mission h2 {
         font-size: 1.1em;
+        line-height: 1.5em;
     }
     #mission p {
         font-size: 1em;
@@ -379,6 +387,7 @@ h2 {
     border: solid white 5px;
     margin: 10px auto;
     background: var(--clr-secondary);
+    line-height: 1.75em;
 }
 
 .box img {
@@ -395,7 +404,6 @@ h2 {
 }
 
 .box p {
-    line-height: 1.25em;
     margin: 0px;
     padding: 10px 10px;
 }
@@ -404,8 +412,7 @@ h2 {
     background: var(--clr-primary);
     font-size: 1em;
     margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 5px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -456,8 +463,7 @@ h2 {
 
 #robot-text {
     padding: 10px;
-    /* font-size:1.25em; */
-    /* background: var(--clr-secondary); */
+    line-height: 1.5em;
 }
 
 #robot img {
@@ -480,6 +486,7 @@ h2 {
         padding: 0;
         margin: 0;
     }
+
     #quotes{
         flex-wrap: wrap;
         -webkit-flex-wrap: wrap;
@@ -562,10 +569,8 @@ h2 {
 }
 
 form {
-    background: white;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 70%;
+    margin: 0 10%;
     padding: 20px;
     background: var(--clr-secondary);
     box-shadow: 5px 5px 2px gray, 7px 7px 5px lightgray;
@@ -588,7 +593,7 @@ form input, textarea {
 
 #submit {
     text-align: center;
-    margin: 0 10%;
+    margin: 7px 10%;
     width: 80%;
     height: 2em;
     border: 0;
@@ -606,10 +611,16 @@ form input, textarea {
     background: #1B243A;
 }
 
+@media only screen and (min-width: 768px) {
+    form {
+        width: 60%;
+        margin: 0 20%;
+    }
+}
+
 /* footer styles */
 
 #footer {
-    width: 100%;
     background: #1B243A;
     padding: 30px;
     margin: 0px;

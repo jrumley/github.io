@@ -2087,7 +2087,6 @@ input, select, textarea {
 		padding: 0 2rem;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
 		white-space: nowrap;
 	}
 
@@ -3573,7 +3572,6 @@ input, select, textarea {
 			letter-spacing: 0.075em;
 			line-height: 1;
 			padding: 1rem 1.75rem;
-			text-transform: uppercase;
 			visibility: visible;
 		}
 

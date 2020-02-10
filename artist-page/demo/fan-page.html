@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fan Page Demo</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/fan-demo.css">
+</head>
+<body>
+    
+    <div class="container">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark d-block text-center">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><h1>Billy D</h1></a>
+            </div>  
+                
+            <div class="music-player">
+                <i class="fa fa-play" id="play-status" aria-hidden="true"></i>
+
+                <!-- <i class="fa fa-pause" aria-hidden="true"></i> -->
+                <audio src="assets/music/colt45audio.mp3" type="audio/mpeg" id="song"></audio>  
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://www.bandcamp.com">Store</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#bio">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#dates-section">Dates</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#music-section">Music</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="http://www.youtube.com">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="MAILTO:support@rumleydev.com">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+
+    <div class="header-img">
+        <img src="assets/images/collection.jpg" class="img-fluid">
+    </div>
+
+    <p class="h2 text-center" id="bio">BILLY D IS A GLOBALLY RENOWNED ARTIST & PRODUCER BASED IN CHICAGO.</p>
+
+    <hr>
+
+    <div class="quotes row">
+        <blockquote class="blockquote text-center col-lg-4 col-sm-12">
+            <p>Chill, lo-fi beats to relax to</p>
+            <footer>Christopher Anderson, <cite>Rolling Stone</cite></footer>
+        </blockquote>
+        <blockquote class="blockquote text-center col-lg-4 col-md-12">
+            <p>Absolute madlad</p>
+            <footer>Ashley Steen, <cite>NME</cite></footer>
+        </blockquote>
+        <blockquote class="blockquote text-center col-lg-4 col-md-12">
+            <p>Perfect for the house party. Gets the bodies movin'. Can't stop, won't stop.</p>
+            <footer>Bret Tapping, <cite>Loudwire</cite></footer>
+        </blockquote> 
+        </div>
+
+        <div class="text-center col">
+            <button type="button" class="btn text-center">Read More</button>
+        </div>
+    <hr>
+        <div class="pics text-center">
+            <img src="assets/images/computer-gear.jpg" alt="" class="mx-auto col-lg-4 col-sm-12">
+            <img src="assets/images/vertigo.jpg" alt="" class="mx-auto col-lg-4 col-sm-12">
+            <img src="assets/images/girl.jpg" alt="" class="mx-auto col-lg-4 col-sm-12">
+        </div>
+
+    <hr>
+
+        <div class="dates-section" id="dates-section">
+            <ul class="col-lg-6">
+                <li>Beach Club <span class="float-right">3.1.20</span></li>
+                <li>House Party <span class="float-right">3.6.20</span></li>
+                <li>Star Bar <span class="float-right">4.17.20</span></li>
+            </ul>
+        </div>
+
+    <hr>
+
+        <div class="music-section" id="music-section">
+
+            <div class="music-links row">
+                <div class="card spotify-icon col-lg-3 mx-auto">
+                    <a href="http://www.spotify.com">
+                        <i class="fa fa-spotify" aria-hidden="true"></i>
+                        <h5 class="card-title">Spotify</h5>
+                        <p class="card-text">Stream all of Billy's officially released music and and check his playlists.</p>
+                        <button class="btn text-center">Spotify</button>
+                    </a>
+                    
+                </div>
+                <div class="card soundcloud-icon col-lg-3 mx-auto">
+                    <a href="http://www.soundcloud.com">
+                        <i class="fa fa-soundcloud" aria-hidden="true"></i>
+                        <h5 class="card-title">Soundcloud</h5>
+                        <p class="card-text">Check Soundcloud for Billy's Remixes, bootlegs, DJ mixes and more. </p>
+                        <button class="btn text-center">Soundcloud</button>
+                    </a>  
+                </div>
+                <div class="card bandcamp-icon col-lg-3 mx-auto">
+                    <a href="http://www.bandcamp.com">
+                        <i class="fa fa-bandcamp" aria-hidden="true"></i>
+                        <h5 class="card-title">Bandcamp</h5>
+                        <p class="card-text">Buy Billy's albums and collect rare music you won't find anywhere else on earth. </p>
+                        <button class="btn text-center">Bandcamp</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    <hr>
+        
+        <div class="contact text-center" id="contact">
+            <button class="btn text-center"><a href="MAILTO:support@rumleydev.com">Contact</a></button>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/js/fan-demo.js"></script>
+</body>
+</html>

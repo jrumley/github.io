@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "DeathDevil"; /*a name to be used later*/
+    src: url("../fonts/epk/DeathDevil.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: "Crucifixion";
+    src: url("../fonts/epk/Crucifixion.ttf");
+}
+
+@font-face {
+    font-family: "Zanaz";
+    src: url("../fonts/epk/Zanaz.otf");
+}
+
+body {
+    background-color: black;
+    /* margin: 0 auto; */
+    color: white;
+}
+
+.navbar{
+    padding-bottom: .05em;
+    padding-top: .05em;
+    letter-spacing: .2em;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-toggler {
+    width: 100vw;
+}
+
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Crucifixion;
+    font-size: 7em;
+    padding-top: 60px;
+}
+
+.h1-span {
+    letter-spacing: .5em;
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+.h2 {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.h6 {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+ul li {
+    list-style: none;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.date {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.header-image {
+    width: 100vw;
+}
+
+.about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.music {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.music .card {
+    background-color: black;
+    transition: opacity 500ms ease;
+}
+
+.music .card:hover {
+    opacity: .5;
+}
+
+.music-links {
+    padding-top: 30px;
+}
+
+.card {
+    font-size: 3em;
+}
+
+.card-title {
+    letter-spacing: .15em;
+    margin-top: 15px;
+}
+
+.music a {
+    text-decoration: none;
+    color: white;
+}
+
+.music i {
+    font-size: 3em;
+}
+
+.btn {
+    border: solid white 2px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.music-player i {
+    color: white;
+}
+
+.music-player i:hover {
+    cursor: pointer;
+}
+
+.contact {
+    padding-top: 100px;
+    padding-bottom: 100px;   
+}
+
+
+.btn:hover {
+    opacity: .5;
+}

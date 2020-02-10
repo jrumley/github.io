@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Alien-I"; /*a name to be used later*/
+    src: url("../fonts/SFAlienEncounters-Italic.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: "broadway"; /*a name to be used later*/
+    src: url("../fonts/broadway.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: "fenice"; /*a name to be used later*/
+    src: url("../fonts/fenice.otf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: "vcr"; /*a name to be used later*/
+    src: url("../fonts/vcr.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: "streamster"; /*a name to be used later*/
+    src: url("../fonts/streamster.ttf"); /*URL to font*/
+}
+
+body {
+    background: #681e53;
+    color: white;
+    padding-bottom: 20px;
+}
+
+hr {
+    background-color: rgb(191,118,185);
+    width: 50%;
+}
+
+.navbar {
+    /* position: absolute; */
+    background:rgba(191,118,185, .9);
+}
+
+.navbar-brand h1 {
+    width: 100%;
+    background: blue;
+    padding: 30px;
+    font-family: Alien-I;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    font-size: 3em;
+    box-shadow: cornsilk 10px 10px;
+}
+
+@media only screen and (max-width: 568px){
+    .navbar-brand h1 {
+        font-size: 2em;
+    }
+}
+
+.navbar-header {
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    display:block;
+}
+
+.navbar i {
+    cursor: pointer;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.h2 {
+    padding: 10px;
+    letter-spacing: .25em;
+    line-height: 1.5em;
+}
+
+.quotes {
+    padding: 10px;
+    line-height: 2em;
+    color: rgb(255, 198, 238)
+}
+
+.quotes footer{
+    color: rgb(191,118,185)
+}
+
+.btn {
+    color: white;
+    border: solid white 2px;
+    border-radius: 0;
+    margin: auto 0;
+    text-decoration: none;
+}
+
+.pics img {
+    padding: 5px;
+}
+
+.dates-section ul {
+    list-style: none;
+    letter-spacing: .25em;
+    width: 50vw;
+    margin: 0 25%;
+}
+
+.music-player {
+    text-align: center;
+}
+
+.music-links {
+    text-align: center;
+    color:rgb(255, 198, 238);
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.card {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(191,118,185);
+}
+
+.card i {
+    font-size: 3em;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+.card :hover {
+    color: rgba(255, 255, 255, 0.589);
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover, .btn a:hover {
+    color: rgba(255, 255, 255, 0.589);
+}

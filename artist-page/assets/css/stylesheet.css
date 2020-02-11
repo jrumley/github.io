@@ -29,8 +29,8 @@ h1 {
 @media only screen and (max-width: 568px){
     h1 {
         padding-top: 12px;
-        left: 51.45%;
-        top: 23.25%;
+        left: 51.4%;
+        top: 23.20%;
         box-shadow: 0px 0px 0px teal;       
     }
 }

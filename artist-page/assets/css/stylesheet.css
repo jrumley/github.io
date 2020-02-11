@@ -26,6 +26,12 @@ h1 {
     box-shadow: 3px 3px 2px gray;
 }
 
+@media only screen and (max-width: 568px){
+    h1 {
+        top: 20%;       
+    }
+}
+
 .navbar {
     justify-content: space-evenly;
 }
@@ -46,7 +52,7 @@ h1 {
         padding-left: 20px;
     }
 }
-#copy {
+#top {
     padding: 30px 15%;
     font-size: 1.25em;
 }

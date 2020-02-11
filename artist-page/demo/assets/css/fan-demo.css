@@ -53,6 +53,8 @@ hr {
 @media only screen and (max-width: 568px){
     .navbar-brand h1 {
         font-size: 1em;
+        padding: 10px;
+        letter-spacing: .25em;
     }
 }
 

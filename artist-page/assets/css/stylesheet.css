@@ -18,7 +18,7 @@ h1 {
     position: absolute;
     top: 30%;
     left: 60%;
-    z-index: 0;
+    z-index: 1001;
     background-color: teal;
     padding: 14.5px 10px;
     letter-spacing: .125em;
